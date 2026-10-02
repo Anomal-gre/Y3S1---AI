@@ -1,0 +1,32 @@
+======================================================================
+      BÁO CÁO ĐÁNH GIÁ MÔ HÌNH TRÊN TẬP TEST (FABRIC MATERIAL AI)
+======================================================================
+
+Mô hình sử dụng: ResNet18 Transfer Learning
+Tổng số mẫu kiểm thử: 393
+
+TỔNG HỢP CÁC CHỈ SỐ CHÍNH:
+- Test Accuracy:           68.70%
+- Precision (Macro):       68.97%
+- Recall (Macro):          69.28%
+- F1-Score (Macro):        68.86%
+- Precision (Weighted):    68.98%
+- Recall (Weighted):       68.70%
+- F1-Score (Weighted):     68.59%
+
+CHI TIẾT THEO TỪNG LỚP CHẤT LIỆU VẢI:
+              precision    recall  f1-score   support
+
+      Cotton     0.6667    0.6333    0.6496        60
+Cotton Mixed     0.6000    0.5000    0.5455        60
+       Denim     0.8281    0.8833    0.8548        60
+   Polyester     0.5517    0.5714    0.5614        56
+        Silk     0.7255    0.8605    0.7872        43
+     Viscose     0.5556    0.6250    0.5882        56
+        Wool     0.9000    0.7759    0.8333        58
+
+    accuracy                         0.6870       393
+   macro avg     0.6897    0.6928    0.6886       393
+weighted avg     0.6898    0.6870    0.6859       393
+
+======================================================================
